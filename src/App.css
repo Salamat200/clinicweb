@@ -1,38 +1,205 @@
-.App {
-  text-align: center;
+.landing {
+  color: rgb(0, 0, 0);
+  padding: 200px;
+  border: solid rgb(24, 9, 161) 2px;
+  background-color: white;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.register-container {
+  max-width: 1000px;
+  margin-left: 450px;
+  padding: 20px;
+  border-radius: 4px;
+  background-color: #ffffff;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.register-heading {
+  font-size: 35px;
+  text-align: end;
+  margin-bottom: 20px;
+  width: 250px;
+  color: #210aea;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.form-group {
+  margin-bottom: 20px;
+  width: fit-content;
+  width: 1000px;
+}
+
+.label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.input {
+  width: 50%;
+  padding: 1px;
+  font-size: 16px;
+  border: 4px solid #31109f;
+  border-radius: 50px;
+}
+
+.register-button {
+  width: 10%;
+  padding: 10px;
+  font-size: 16px;
+  border: #d0c9c9;
+  border-radius: 10px;
+  background-color: #2410da;
+  color: #faf8f8;
+  cursor: pointer;
+  margin-left: 190px;
+}
+
+.register-button:hover {
+  background-color: #115b80;
+}
+
+.complaints-list {
+  border: solid black 2px;
+  height: 300px;
+  width: 800px;
+  margin-top: 10px;
+  overflow: auto;
+}
+
+.complaints-container {
+  margin-top: 100px;
+  margin-left: 200px;
+  max-width: 1000px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: #ffffff;
 }
 
-.App-link {
-  color: #61dafb;
+.complaints-heading {
+  font-size: 40px;
+  margin-bottom: 20px;
+  color: black;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.form-group2 {
+  margin-bottom: 30px;
+}
+
+.label2 {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+#comp{
+ margin-left: 40px;
+}
+.input2 {
+  width: 50%;
+  padding: 1px;
+  font-size: 16px;
+  border: 4px solid #31109f;
+
+  border-radius: 100px;
+}
+
+.submit-button {
+  width: 30%;
+  padding: 10px;
+  font-size: 16px;
+  border: #d0c9c9;
+  border-radius: 10px;
+  background-color: #2410da;
+  color: #faf8f8;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #115b80;
+}
+
+.complaints-list {
+  width: 70%;
+  padding-left: 100px;
+  border: #78758b;
+  background-color: #e5e4ee;
+  border-radius: 20px;
+  box-shadow: inset 0px 5px 5px grey;
+}
+
+/*.profile-container{
+
+  margin: 0 auto;
+
+  border: 5px solid #131c5e;
+  border-radius: 4px;
+  background-color: #ffffff;
+  width:fit-content
+
+}*/
+
+.profile-heading {
+  font-size: 35px;
+  height: 50px;
+  color: black;
+  box-shadow: 0px 0px 5px #c4c2cf;
+  background-color: #9b99a3;
+}
+.profile-details {
+  display: block;
+  color: #e5e4ee;
+  font-weight: bold;
+  margin: 200px;
+  margin-left: 550px;
+  margin-top: 150px;
+  width: 400px;
+  height: 250px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 2px 5px 5px grey;
+  background-color: #13028d;
+}
+
+.login-container {
+  max-width: 1000px;
+  margin-left: 300px;
+  padding: 100px;
+
+  border-radius: 4px;
+}
+
+.login-heading {
+  font-size: 24px;
+  margin-bottom: 20px;
+  width: 250px;
+  color: #210aea;
+}
+
+.label3 {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.input3 {
+  width: 40%;
+  padding: 1px;
+  font-size: 16px;
+  border: 4px solid #31109f;
+
+  border-radius: 100px;
+}
+
+.login-button {
+  width: 10%;
+  padding: 10px;
+  font-size: 16px;
+  border: #d0c9c9;
+  border-radius: 10px;
+  background-color: #2410da;
+  color: #faf8f8;
+  cursor: pointer;
+}
+
+.login-button:hover {
+  background-color: #115b80;
 }
